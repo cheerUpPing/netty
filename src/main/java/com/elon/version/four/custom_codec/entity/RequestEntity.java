@@ -1,7 +1,5 @@
 package com.elon.version.four.custom_codec.entity;
 
-import org.apache.commons.lang.builder.ToStringBuilder;
-
 /**
  * 2017/9/27 14:27.
  * <p>
@@ -51,11 +49,11 @@ public class RequestEntity extends Msg {
 
     @Override
     public String toString() {
-        return new ToStringBuilder(this)
-                .append("command", command)
-                .append("token", token)
-                .append("data", data)
-                .toString();
+        return "RequestEntity{" +
+                "command='" + command + '\'' +
+                ", token='" + token + '\'' +
+                ", data=" + data +
+                '}';
     }
 
     public static void main(String[] args) {

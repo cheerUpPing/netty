@@ -1,9 +1,9 @@
 package com.elon.version.four.custom_codec.codec;
 
+import com.elon.version.util.SeriableUtil;
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.handler.codec.ByteToMessageDecoder;
-import seriable.SeriableUtil;
 
 import java.util.List;
 
